@@ -66,13 +66,13 @@ nav a {
 
 /* Tablet styling*/
 
-@media screen and (max-width 768px){
+@media screen and (max-width: 768px){
     header{
         width: 100%;
     }
     .flex-container {
-        width:100%
-        flex-wrap:wrap
+        width:100%;
+        flex-wrap:wrap;
     }
     
 }
@@ -95,7 +95,23 @@ nav a {
 
 
 
+#jokeBtn {
+    background-color: #ffa600;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
 
+#jokeBtn:hover {
+    background-color: white;
+    color: #ffa600;
+}
 
+#jokeText {
+    font-size: 2.0rem;
+}
 
 
